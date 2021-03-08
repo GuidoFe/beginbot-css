@@ -1,8 +1,22 @@
 :root {
     --main-bg-color: #2e3440;
+    --main-fg-color: #d8dee9;
+
+    --color-black: #3b4252;
+    --color-red: #bf616a;
+    --color-green: #a3be8c;
+    --color-yellow: #ebcb8b;
+    --color-blue: #81a1c1;
+    --color-purple: #b48ead;
+    --color-cyan: #88c0d0;
+    --color-gray: #e5e9f0;
+    --color-black-light: #4c566a;
 }
- 
  
 body {
     background-color: var(--main-bg-color);
+    
 }
+
+a {
+    color: inherit;
